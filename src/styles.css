@@ -2,13 +2,22 @@ body {
     font-family: "poppins", sans-serif;
     background-color: #3b3552;
 }
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
 
 }
 
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/seoul.png");
@@ -18,8 +27,6 @@ header {
     color: white;
     text-align: center;
     padding: 200px 0;
-
-
 }
 
 header h1{
@@ -56,10 +63,46 @@ header a {
     text-decoration: none; 
     padding: 16px 32px;
     margin-top: 32px;
+}
 
+footer {
+   
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/koreashops.png");
+    background-size: cover;
+    background-repeat: no repeat;
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
 }
-@media (max-width: 900px) {
+footer a {
+    color: white;
+    opacity: .7;
+
+}
+@media (max-width: 960px) {
     header {
         padding: 60px 0;
     }
