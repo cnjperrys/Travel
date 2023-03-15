@@ -6,35 +6,87 @@ body {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-
 }
 
 section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px o;
+       max-width: 1200px;
+       margin: 40 auto;
+       padding: 100px 0;
 }
+section.secondary {
+    background-color: #f8f8f8;
 
+}
+section.secondary {
+    text-align: center;
+    padding: 20px;
+}
 .food {
-    margin-top: 40px;
+    margin: 20px;
+    padding: 50px;
 }
 .food-info {
-    
-    margin: 40px;
+    margin: 20px;
+    padding: 40px;
 }
 
 .grid {
-    display: grid;
-     grid-gap: 64px;
+     display: grid;
+     grid-gap: 24px;
 }
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
   
 }
-.grid-3-columns-first-narrow {
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-columns-footer {
     grid-template-columns: 1fr 2fr 2fr;
    
 }
+.card {
+    background-color: white;
+   
+
+}
+
+.card-body {
+    padding: 30px;
+    
+
+}
+.card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+
+}
+.card h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+
+}
+.btn {
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #462cb3;
+    text-decoration: none;
+
+}
+    
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/seoul.png");
     background-repeat: no-repeat;
@@ -121,6 +173,8 @@ footer {
     background-size: cover;
     background-repeat: no repeat;
     padding: 100px 0;
+    
+
     
 }
 
