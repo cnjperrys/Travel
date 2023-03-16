@@ -29,6 +29,12 @@ section.secondary {
 .food-info {
     margin: 20px;
     padding: 40px;
+
+}
+.food-section-images {
+    grid-gap: 5px;
+    
+    
 }
 
 .grid {
@@ -46,10 +52,20 @@ section.secondary {
     grid-template-columns: 1fr 2fr 2fr;
    
 }
+
+
 .card {
     background-color: white;
    
 
+}
+
+.card-header.grid {
+    grid-gap: 0;
+}
+.embed {
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 
 .card-body {
@@ -131,6 +147,11 @@ header a {
     text-decoration: none; 
     padding: 16px 32px;
     margin-top: 32px;
+}
+
+.img-responsive {
+    width: 100%;
+    display: block;
 }
 
 main {
@@ -233,5 +254,12 @@ footer a {
     section {
         padding: 30px;
 
+    }
+    .card-header  img {
+        display: none;
+
+    }
+    .embed {
+        aspect-ration: 16/9;
     }
 }
