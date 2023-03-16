@@ -33,8 +33,6 @@ section.secondary {
 }
 .food-section-images {
     grid-gap: 5px;
-    
-    
 }
 
 .grid {
@@ -53,6 +51,9 @@ section.secondary {
    
 }
 
+.text-center {
+    text-align: center;
+}
 
 .card {
     background-color: white;
